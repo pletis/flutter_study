@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
     Future.delayed(
-      Duration(seconds: 5),
+      Duration(seconds: 3),
       () {
         Navigator.push(
           context,
